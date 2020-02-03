@@ -32,8 +32,7 @@
             });
           });
         /* Loader Code End */
-  
-  
+
        
     
   
@@ -84,38 +83,7 @@
         });  
         
           
-      /*
-      |=================
-      | Onepage Nav
-      |================
-      */
-          
-        $('#mh-header').onePageNav({
-            currentClass: 'active', 
-            changeHash: false,
-            scrollSpeed: 750,
-            scrollThreshold: 0.5,
-        });
-      
-      /*
-      |=================
-      | fancybox
-      |================
-      */
-   
-        $("[data-fancybox]").fancybox({});
-        
-        
-      /*
-      |===============
-      | WOW ANIMATION
-      |==================
-      */
-          var wow = new WOW({
-            mobile: false  // trigger animations on mobile devices (default is true)
-        });
-        wow.init();
-        
+    
         
       /*
       |=================
@@ -152,12 +120,7 @@
           .append('<i class="fa fa-circle"></i>');                
       });
       
-      /*
-      |=================
-      | Portfolio mixin
-      |================
-      */   
-      $('#portfolio-item').mixItUp();
+    
       
       /*
       |=================
